@@ -21,7 +21,6 @@ export function Navbar() {
     { href: '#skills', label: 'Skills' },
     { href: '#projects', label: 'Projects' },
     { href: '#services', label: 'Services' },
-    { href: '#testimonials', label: 'Testimonials' },
     { href: '#contact', label: 'Contact', isButton: true },
   ];
 

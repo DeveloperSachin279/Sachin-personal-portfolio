@@ -9,10 +9,9 @@ interface ResumePreviewModalProps {
 
 export function ResumePreviewModal({ isOpen, onClose, resumeUrl }: ResumePreviewModalProps) {
   const handleDownload = () => {
-    // Create a temporary link to download the image
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Sachin_Lodhi_Resume.png';
+    link.download = 'Sachin_Lodhi.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -52,14 +51,12 @@ export function ResumePreviewModal({ isOpen, onClose, resumeUrl }: ResumePreview
             </div>
 
             {/* Resume Preview */}
-            <div className="flex-1 overflow-auto bg-gray-50 p-4">
-              <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
-                <img
-                  src={resumeUrl}
-                  alt="Sachin Lodhi Resume"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
+            <div className="flex-1 min-h-0 overflow-hidden bg-gray-100">
+              <iframe
+                src={`${resumeUrl}#toolbar=1&navpanes=0&view=FitH`}
+                title="Sachin Lodhi Resume"
+                className="w-full h-full min-h-[55vh] border-0 bg-white"
+              />
             </div>
 
             {/* Footer with Actions */}

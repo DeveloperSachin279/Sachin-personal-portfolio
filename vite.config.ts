@@ -17,7 +17,7 @@
         'next-themes@0.4.6': 'next-themes',
         'lucide-react@0.487.0': 'lucide-react',
         'input-otp@1.4.2': 'input-otp',
-        'figma:asset/939e58deabda23185f47a3016773aab5a09e9169.png': path.resolve(__dirname, './src/assets/939e58deabda23185f47a3016773aab5a09e9169.png'),
+        'figma:asset/939e58deabda23185f47a3016773aab5a09e9169.png': path.resolve(__dirname, './src/assets/Cinematic Auraforge Portrait (1).png'),
         'figma:asset/508da967e36a7dcee441e6350fbb64c9fb048aa0.png': path.resolve(__dirname, './src/assets/508da967e36a7dcee441e6350fbb64c9fb048aa0.png'),
         'figma:asset/0b2b2a254bfdccd0c155ce04cffd0575b7fdca76.png': path.resolve(__dirname, './src/assets/0b2b2a254bfdccd0c155ce04cffd0575b7fdca76.png'),
         'embla-carousel-react@8.6.0': 'embla-carousel-react',

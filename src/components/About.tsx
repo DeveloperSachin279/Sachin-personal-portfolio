@@ -40,15 +40,13 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              I specialize in creating modern, user-friendly websites and digital portfolios that help 
-              individuals and businesses build a powerful online presence. From e-commerce stores to 
-              personal portfolios, I transform ideas into interactive, result-driven experiences.
+            I'm the Founder of <b>AuraForge</b>, a digital studio focused on building modern websites, custom web applications, and AI-powered solutions for businesses. Through AuraForge, I aim to help individuals and businesses turn their ideas into impactful digital experiences.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Alongside web development, I provide drop services including video editing, voice-overs, 
-              content creation, and graphic design — offering clients complete digital solutions in one 
-              place. I'm always learning new tools and technologies to deliver creative, high-performance 
-              results that help my clients grow.
+            My goal is to grow as a developer and entrepreneur, build meaningful products, and create technology that makes a difference.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+            <strong>I don't just want to write code — I want to build things that matter.</strong>
             </p>
           </motion.div>
 

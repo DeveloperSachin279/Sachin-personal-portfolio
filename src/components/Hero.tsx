@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { ArrowDown, Download, Calendar } from 'lucide-react';
-import heroImage from 'figma:asset/939e58deabda23185f47a3016773aab5a09e9169.png';
-import resumeImage from 'figma:asset/508da967e36a7dcee441e6350fbb64c9fb048aa0.png';
+import heroImage from '../assets/Cinematic Auraforge Portrait (1).png';
+import resumePdf from '../assets/Sachin_Lodhi.pdf';
 import { useState } from 'react';
 import { ResumePreviewModal } from './ResumePreviewModal';
 
@@ -97,8 +97,8 @@ export function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 1 }}
             >
-              <p className="gradient-text mb-2">Building Digital Solutions</p>
-              <p className="text-sm text-gray-600">Web Developer & Portfolio Maker</p>
+              <p className="gradient-text mb-2">Founder of AuraForge</p>
+              <p className="text-sm text-gray-600">Web Developer & AI Product Builder</p>
             </motion.div>
           </motion.div>
         </div>
@@ -107,7 +107,7 @@ export function Hero() {
       <ResumePreviewModal
         isOpen={isResumeModalOpen}
         onClose={() => setIsResumeModalOpen(false)}
-        resumeUrl={resumeImage}
+        resumeUrl={resumePdf}
       />
     </section>
   );
