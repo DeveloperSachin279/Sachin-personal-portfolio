@@ -54,7 +54,7 @@ export function Projects() {
       description: 'Clean and professional landing page with conversion-focused design.',
       image: 'https://images.unsplash.com/photo-1632246030676-6229211f2907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGxhbmRpbmclMjBwYWdlfGVufDF8fHx8MTc2NDk2NjY0Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       tags: ['HTML', 'Tailwind', 'SEO'],
-      liveUrl: 'https://demo.nextmerce.com',
+      liveUrl: 'https://akashplyfurniture.shop/',
     },
   ];
 
